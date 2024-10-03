@@ -1,0 +1,36 @@
+const DICTIONARY = {
+    en: {
+        MENU_TITLE: "MENU",
+        PLAY_PVP: "Play Game (PvP)",
+        PLAY_PVC: "Play Game (PvC)",
+        SETTINGS: "Settings",
+        EXIT: "Exit Game",
+        CHOOSE_LANGUAGE: "Choose Language:",
+        LANGUAGE_CHANGED: "Language changed.",
+        CURRENT_GAME_BOARD: "Current Game Board:",
+        CURRENT_PLAYER: "Current player:",
+        PLACE_MARK: "Place your mark at (row col): ",
+        WINNER: "Player ",
+        GAME_OVER: "Game Over!",
+        PLAY_AGAIN_QUESTION: "Do you want to play again? (yes/no): ",
+        CONFIRM: "y",
+    },
+    no: {
+        MENU_TITLE: "MENY",
+        PLAY_PVP: "Spill (PvP)",
+        PLAY_PVC: "Spill (PvC)",
+        SETTINGS: "Innstillinger",
+        EXIT: "Avslutt spill",
+        CHOOSE_LANGUAGE: "Velg språk:",
+        LANGUAGE_CHANGED: "Språk endret.",
+        CURRENT_GAME_BOARD: "Nåværende spillbrett:",
+        CURRENT_PLAYER: "Nåværende spiller:",
+        PLACE_MARK: "Plasser merket ditt på (rad kol): ",
+        WINNER: "Spiller ",
+        GAME_OVER: "Spillet er over!",
+        PLAY_AGAIN_QUESTION: "Vil du spille igjen? (ja/nei): ",
+        CONFIRM: "j",
+    },
+};
+
+export default DICTIONARY;
